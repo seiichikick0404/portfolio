@@ -1,4 +1,30 @@
-h1 {
-  color: aqua;
+.header-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(34, 193, 195, 0.7);
+  height: 64px;
+}
+
+.title {
+  font-size: 30px;
+  color: black;
+}
+
+.header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-menu li {
+  list-style: none;
+  margin-left: 10px;
 }
 /*# sourceMappingURL=index.css.map */

@@ -1,3 +1,25 @@
-h1 {
-  color: aqua;
+$cBlack: black;
+$cWhite: white;
+$cEmerald: rgba(34,193,195,0.7);
+
+
+.header-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $cEmerald;
+  height: 64px;
+}
+.title {
+  font-size: 30px;
+  color: $cBlack;
+}
+
+.header-menu {
+  display: flex;
+
+  & li {
+    list-style: none;
+    margin-left: 10px;
+  }
 }
