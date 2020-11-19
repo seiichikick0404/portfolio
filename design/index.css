@@ -14,7 +14,7 @@
 
 .title {
   font-size: 30px;
-  color: black;
+  color: white;
 }
 
 .header-menu {
@@ -26,5 +26,45 @@
 .header-menu li {
   list-style: none;
   margin-left: 10px;
+  color: white;
+}
+
+body {
+  background-image: url(../images/water_00011.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #4977aa;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: calc(100vh - 64px);
+}
+
+.main-container {
+  margin-bottom: 30px;
+  margin-right: 240px;
+}
+
+.main-container h2 {
+  color: white;
+  font-size: 70px;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+
+.main-container p {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
 }
 /*# sourceMappingURL=index.css.map */

@@ -12,7 +12,7 @@ $cEmerald: rgba(34,193,195,0.7);
 }
 .title {
   font-size: 30px;
-  color: $cBlack;
+  color: $cWhite;
 }
 
 .header-menu {
@@ -21,5 +21,39 @@ $cEmerald: rgba(34,193,195,0.7);
   & li {
     list-style: none;
     margin-left: 10px;
+    color: $cWhite;
+  }
+}
+
+body {
+  background-image: url(../images/water_00011.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(73, 119, 170);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 64px);
+}
+
+.main-container {
+  margin-bottom: 30px;
+  margin-right: 240px;
+
+  & h2 {
+    color: $cWhite;
+    font-size: 70px;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+  }
+
+  & p {
+    color: $cWhite;
+    font-size: 15px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
   }
 }
