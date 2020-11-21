@@ -100,6 +100,26 @@ $cOcean: #a2dedd;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: relative;
+
+  & .profile-text {
+    margin-top: 70px;
+  }
+
+  & .myname {
+    font-size: 40px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 65px;
+    left: 300px;
+  }
+
+  & .mytext {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #999;
+  }
 }
 
 .trim-image-to-circle {
