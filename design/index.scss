@@ -104,6 +104,19 @@ $cOcean: #a2dedd;
 
   & .profile-text {
     margin-top: 70px;
+
+    & .icon-link {
+      padding: 15px;
+      border-radius: 50%;
+      background-color: #abc2cf;
+      color: $cWhite;
+      margin-top: 20px;
+      margin-right: 10px;
+    }
+
+    & .icon-list {
+      margin-top: 35px;
+    }
   }
 
   & .myname {

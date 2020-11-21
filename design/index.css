@@ -126,6 +126,19 @@
   margin-top: 70px;
 }
 
+.profile-box .profile-text .icon-link {
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #abc2cf;
+  color: white;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.profile-box .profile-text .icon-list {
+  margin-top: 35px;
+}
+
 .profile-box .myname {
   font-size: 40px;
   letter-spacing: 2px;
