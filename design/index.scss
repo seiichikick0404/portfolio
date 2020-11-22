@@ -153,6 +153,70 @@ $cOcean: #a2dedd;
   
 }
 
+.container3 {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient($cOcean, #3369d4 ) fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & .skill-title {
+    text-align: center;
+    font-size: 50px;
+    color: $cWhite;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+  }
+
+  & .skill-box {
+    width: 450px;
+    height: 550px;
+    background-color: $cWhite;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+
+    & .skill-lists {
+      list-style: none;
+      
+
+      & li {
+        font-size: 50px;
+        margin: 10px 0 0 40px;
+
+      }
+
+      & .html-icon {
+        color: orange;
+        font-size: 73px;
+      }
+
+      & .css-icon {
+        color: rgb(0, 162, 255);;
+        font-size: 73px;
+      }
+
+      & .sass-icon {
+        font-size: 73px;
+      }
+
+      & .js-icon {
+        color: rgb(223, 223, 9);
+        font-size: 65px;
+      }
+
+      & .ruby-icon {
+        color: red;
+        font-size: 55px;
+      }
+
+    }
+  }
+}
+
 
 
 /*1.フェードインアニメーションの指定*/

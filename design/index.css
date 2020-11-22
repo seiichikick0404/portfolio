@@ -175,6 +175,79 @@
   color: rgba(7, 96, 96, 0.7);
 }
 
+.container3 {
+  height: 100vh;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#a2dedd), to(#3369d4)) fixed;
+  background: linear-gradient(#a2dedd, #3369d4) fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container3 .skill-title {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.container3 .skill-box {
+  width: 450px;
+  height: 550px;
+  background-color: white;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container3 .skill-box .skill-lists {
+  list-style: none;
+}
+
+.container3 .skill-box .skill-lists li {
+  font-size: 50px;
+  margin: 10px 0 0 40px;
+}
+
+.container3 .skill-box .skill-lists .html-icon {
+  color: orange;
+  font-size: 73px;
+}
+
+.container3 .skill-box .skill-lists .css-icon {
+  color: #00a2ff;
+  font-size: 73px;
+}
+
+.container3 .skill-box .skill-lists .sass-icon {
+  font-size: 73px;
+}
+
+.container3 .skill-box .skill-lists .js-icon {
+  color: #dfdf09;
+  font-size: 65px;
+}
+
+.container3 .skill-box .skill-lists .ruby-icon {
+  color: red;
+  font-size: 55px;
+}
+
 /*1.フェードインアニメーションの指定*/
 .scrollanime {
   opacity: 0;
