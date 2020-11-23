@@ -257,8 +257,8 @@
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
           animation-name: fadeInDown;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -283,5 +283,32 @@
     -webkit-transform: translate(0);
             transform: translate(0);
   }
+}
+
+/*2.上下の動きを指定*/
+.updown {
+  -webkit-transform: translateY(-300px);
+          transform: translateY(-300px);
+}
+
+.downup {
+  -webkit-transform: translateY(300px);
+          transform: translateY(300px);
+}
+
+/*3.左右の動きを指定*/
+.sect02 {
+  overflow: hidden;
+}
+
+/*横スクロールバーを隠す*/
+.slide-right {
+  -webkit-transform: translateX(200px);
+          transform: translateX(200px);
+}
+
+.slide-left {
+  -webkit-transform: translateX(-200px);
+          transform: translateX(-200px);
 }
 /*# sourceMappingURL=index.css.map */

@@ -146,6 +146,7 @@ $cOcean: #a2dedd;
   background-position: center top;
 }
 
+
 .about-title {
   font-size: 60px;
   text-align: center;
@@ -223,7 +224,7 @@ $cOcean: #a2dedd;
 .scrollanime {opacity: 0;} /*一瞬表示されるのを防ぐ*/
 .fadeInDown {
     animation-name: fadeInDown;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-fill-mode: forwards;
 }
 @keyframes fadeInDown {
@@ -235,3 +236,12 @@ $cOcean: #a2dedd;
     transform: translate(0);
     }
 }
+
+/*2.上下の動きを指定*/
+.updown {transform: translateY(-300px);}
+.downup {transform: translateY(300px);}
+ 
+/*3.左右の動きを指定*/
+.sect02{overflow: hidden;} /*横スクロールバーを隠す*/
+.slide-right {transform: translateX(200px);}
+.slide-left {transform: translateX(-200px);}
