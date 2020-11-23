@@ -204,11 +204,11 @@ $cOcean: #a2dedd;
 
           &.text-rails {
             margin-left: 50px;
-            color: rgb(128, 8, 8);
+            color: #b11010;
           }
 
           &.text-jquery {
-            color: rgb(34, 34, 134);
+            color: #1b65b3;
           }
         }
       }
@@ -251,6 +251,30 @@ $cOcean: #a2dedd;
       }
 
     }
+  }
+}
+
+.container4 {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(180deg,#5a96bb 0%,#7aaab6 25%,#a4b49a 50%, rgb(182, 159, 117) 75%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & .works-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 45px;
+    color: $cWhite;
+  }
+
+  & .works-box {
+    height: 500px;
+    width: 700px;
+    background-color: $cWhite;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 20px;
   }
 }
 

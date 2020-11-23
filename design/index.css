@@ -243,11 +243,11 @@
 
 .container3 .skill-box .skill-lists li .icon-text.text-rails {
   margin-left: 50px;
-  color: #800808;
+  color: #b11010;
 }
 
 .container3 .skill-box .skill-lists li .icon-text.text-jquery {
-  color: #222286;
+  color: #1b65b3;
 }
 
 .container3 .skill-box .skill-lists .html-icon {
@@ -292,6 +292,38 @@
 .container3 .skill-box .skill-lists .jquery-icon {
   -webkit-animation-delay: 1.05s;
           animation-delay: 1.05s;
+}
+
+.container4 {
+  height: 100vh;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#5a96bb), color-stop(25%, #7aaab6), color-stop(50%, #a4b49a), color-stop(75%, #b69f75));
+  background: linear-gradient(180deg, #5a96bb 0%, #7aaab6 25%, #a4b49a 50%, #b69f75 75%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container4 .works-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 45px;
+  color: white;
+}
+
+.container4 .works-box {
+  height: 500px;
+  width: 700px;
+  background-color: white;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
 }
 
 /* トップフェードイン */
