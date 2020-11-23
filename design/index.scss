@@ -173,7 +173,7 @@ $cOcean: #a2dedd;
 
   & .skill-box {
     width: 450px;
-    height: 550px;
+    height: 600px;
     background-color: $cWhite;
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
     border-radius: 18px;
@@ -182,11 +182,11 @@ $cOcean: #a2dedd;
 
     & .skill-lists {
       list-style: none;
-      
+      padding: 40px 0;
 
       & li {
         font-size: 50px;
-        margin: 10px 0 0 40px;
+        margin: 10px 0 0 80px;
 
       }
 

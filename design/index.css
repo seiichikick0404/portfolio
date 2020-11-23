@@ -202,7 +202,7 @@
 
 .container3 .skill-box {
   width: 450px;
-  height: 550px;
+  height: 600px;
   background-color: white;
   -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -217,11 +217,12 @@
 
 .container3 .skill-box .skill-lists {
   list-style: none;
+  padding: 40px 0;
 }
 
 .container3 .skill-box .skill-lists li {
   font-size: 50px;
-  margin: 10px 0 0 40px;
+  margin: 10px 0 0 80px;
 }
 
 .container3 .skill-box .skill-lists .html-icon {
