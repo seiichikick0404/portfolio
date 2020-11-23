@@ -227,25 +227,84 @@
 .container3 .skill-box .skill-lists .html-icon {
   color: orange;
   font-size: 73px;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
 }
 
 .container3 .skill-box .skill-lists .css-icon {
   color: #00a2ff;
   font-size: 73px;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 
 .container3 .skill-box .skill-lists .sass-icon {
   font-size: 73px;
+  -webkit-animation-delay: 0.45s;
+          animation-delay: 0.45s;
 }
 
 .container3 .skill-box .skill-lists .js-icon {
   color: #dfdf09;
   font-size: 65px;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
 }
 
 .container3 .skill-box .skill-lists .ruby-icon {
   color: red;
   font-size: 55px;
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
+}
+
+.container3 .skill-box .skill-lists .rails-icon {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+
+.container3 .skill-box .skill-lists .jquery-icon {
+  -webkit-animation-delay: 1.05s;
+          animation-delay: 1.05s;
+}
+
+/* トップフェードイン */
+.fade-in-bottom {
+  opacity: 0;
+  -webkit-animation-name: fadein-bottom;
+          animation-name: fadein-bottom;
+  -webkit-animation-duration: 2.3s;
+          animation-duration: 2.3s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fadein-bottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes fadein-bottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 
 /*1.フェードインアニメーションの指定*/
