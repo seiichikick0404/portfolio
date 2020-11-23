@@ -183,11 +183,34 @@ $cOcean: #a2dedd;
     & .skill-lists {
       list-style: none;
       padding: 40px 0;
+  
 
       & li {
         font-size: 50px;
         margin: 10px 0 0 80px;
+        display: flex;
+        align-items: center;
+        
+        
 
+        & .icon-text {
+          font-size: 27px;
+          margin-left: 60px;
+          font-weight: 600;
+
+          &.text-sass {
+            margin-left: 45px;
+          }
+
+          &.text-rails {
+            margin-left: 50px;
+            color: rgb(128, 8, 8);
+          }
+
+          &.text-jquery {
+            color: rgb(34, 34, 134);
+          }
+        }
       }
 
       & .html-icon {
@@ -203,7 +226,7 @@ $cOcean: #a2dedd;
       }
 
       & .sass-icon {
-        font-size: 73px;
+        font-size: 60px;
         animation-delay: 0.45s;
       }
 

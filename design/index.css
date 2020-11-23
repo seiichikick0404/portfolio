@@ -223,6 +223,31 @@
 .container3 .skill-box .skill-lists li {
   font-size: 50px;
   margin: 10px 0 0 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container3 .skill-box .skill-lists li .icon-text {
+  font-size: 27px;
+  margin-left: 60px;
+  font-weight: 600;
+}
+
+.container3 .skill-box .skill-lists li .icon-text.text-sass {
+  margin-left: 45px;
+}
+
+.container3 .skill-box .skill-lists li .icon-text.text-rails {
+  margin-left: 50px;
+  color: #800808;
+}
+
+.container3 .skill-box .skill-lists li .icon-text.text-jquery {
+  color: #222286;
 }
 
 .container3 .skill-box .skill-lists .html-icon {
@@ -240,7 +265,7 @@
 }
 
 .container3 .skill-box .skill-lists .sass-icon {
-  font-size: 73px;
+  font-size: 60px;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
 }
