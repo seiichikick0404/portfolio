@@ -27,7 +27,11 @@ $cGray: #999;
   & li {
     list-style: none;
     margin-left: 10px;
-    color: $cWhite;
+    
+     & a {
+       color: $cWhite;
+       text-decoration: none;
+     }
   }
 }
 
