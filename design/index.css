@@ -431,6 +431,32 @@
   color: #999;
 }
 
+.container5 {
+  height: 200px;
+  width: 100%;
+  background-color: white;
+}
+
+.container5 .contact-box {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.container5 .contact-box h2 {
+  font-size: 35px;
+}
+
+.container5 .contact-box p {
+  margin-top: 25px;
+}
+
+.container5 .contact-box .contact-link {
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #3686b4;
+  color: white;
+}
+
 /* トップフェードイン */
 .fade-in-bottom {
   opacity: 0;

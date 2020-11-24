@@ -364,7 +364,32 @@ $cGray: #999;
         color: $cGray;
       }
     }
-    
+  }
+}
+
+.container5 {
+  height: 200px;
+  width: 100%;
+  background-color: $cWhite;
+
+  & .contact-box {
+    text-align: center;
+    margin-top: 25px;
+
+    & h2 {
+      font-size: 35px;
+    }
+
+    & p {
+      margin-top: 25px;
+    }
+
+    & .contact-link {
+      padding: 15px;
+      border-radius: 50%;
+      background-color: #3686b4;
+      color: white;
+    }
   }
 }
 
