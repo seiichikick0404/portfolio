@@ -18,12 +18,14 @@
 .title {
   font-size: 30px;
   color: white;
+  margin-left: 10px;
 }
 
 .header-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-right: 20px;
 }
 
 .header-menu li {
@@ -106,7 +108,7 @@
 .profile-box {
   height: 400px;
   width: 700px;
-  background-color: #fff;
+  background-color: white;
   border-radius: 13px;
   margin-top: 40px;
   -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -319,11 +321,114 @@
 
 .container4 .works-box {
   height: 500px;
-  width: 700px;
+  width: 1050px;
   background-color: white;
   -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container4 .works-box .item {
+  margin-top: 70px;
+}
+
+.container4 .works-box .item .item-1 {
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+}
+
+.container4 .works-box .item .title1 {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.container4 .works-box .item .daily1 {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+.container4 .works-box .item .text1 {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.container4 .works-box .item .text2 {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+
+.container4 .works-box .item .item-2 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.container4 .works-box .item .daily2 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.container4 .works-box .item .text3 {
+  -webkit-animation-delay: 1.1s;
+          animation-delay: 1.1s;
+}
+
+.container4 .works-box .item .text4 {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+
+.container4 .works-box .item .text5 {
+  -webkit-animation-delay: 1.3s;
+          animation-delay: 1.3s;
+}
+
+.container4 .works-box .item .item-3 {
+  -webkit-animation-delay: 0.45s;
+          animation-delay: 0.45s;
+}
+
+.container4 .works-box .item .daily3 {
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+}
+
+.container4 .works-box .item .text6 {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+.container4 .works-box .item .text7 {
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+}
+
+.container4 .works-box .item .text8 {
+  -webkit-animation-delay: 1.7s;
+          animation-delay: 1.7s;
+}
+
+.container4 .works-box .item .item-title {
+  margin-top: 15px;
+  display: block;
+  color: black;
+  font-size: 28px;
+}
+
+.container4 .works-box .item p {
+  margin-top: 20px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  color: #999;
+}
+
+.container4 .works-box .item .text {
+  margin-top: 17px;
+  color: #999;
 }
 
 /* トップフェードイン */

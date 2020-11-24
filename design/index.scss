@@ -2,6 +2,7 @@ $cBlack: black;
 $cWhite: white;
 $cEmerald: rgba(34,193,195,0.7);
 $cOcean: #a2dedd;
+$cGray: #999;
 
 
 .header-parent {
@@ -16,10 +17,12 @@ $cOcean: #a2dedd;
 .title {
   font-size: 30px;
   color: $cWhite;
+  margin-left: 10px;
 }
 
 .header-menu {
   display: flex;
+  margin-right: 20px;
 
   & li {
     list-style: none;
@@ -93,7 +96,7 @@ $cOcean: #a2dedd;
 .profile-box {
   height: 400px;
   width: 700px;
-  background-color: #fff;
+  background-color: $cWhite;
   border-radius: 13px;
   margin-top: 40px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
@@ -131,7 +134,7 @@ $cOcean: #a2dedd;
     font-size: 16px;
     margin-bottom: 15px;
     font-weight: bold;
-    color: #999;
+    color: $cGray;
   }
 }
 
@@ -271,10 +274,97 @@ $cOcean: #a2dedd;
 
   & .works-box {
     height: 500px;
-    width: 700px;
+    width: 1050px;
     background-color: $cWhite;
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
     border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+
+    & .item {
+      margin-top: 70px;
+
+      & .item-1 {
+        animation-delay: 0.15s;
+      }
+
+      & .title1 {
+        animation-delay: 0.6s;
+      }
+
+      & .daily1 {
+        animation-delay: 0.7s;
+      }
+
+      & .text1 {
+        animation-delay: 0.8s;
+      }
+
+      & .text2 {
+        animation-delay: 0.9s;
+      }
+
+      & .item-2 {
+        animation-delay: 0.3s;
+      }
+
+      & .daily2 {
+        animation-delay: 1s;
+      }
+
+      & .text3 {
+        animation-delay: 1.1s;
+      }
+
+      & .text4 {
+        animation-delay: 1.2s;
+      }
+
+      & .text5 {
+        animation-delay: 1.3s;
+      }
+
+      & .item-3 {
+        animation-delay: 0.45s;
+      }
+
+      & .daily3 {
+        animation-delay: 1.4s;
+      }
+
+      & .text6 {
+        animation-delay: 1.5s;
+      }
+
+      & .text7 {
+        animation-delay: 1.6s;
+      }
+
+      & .text8 {
+        animation-delay: 1.7s;
+      }
+
+      & .item-title {
+        margin-top: 15px;
+        display: block;
+        color: $cBlack;
+        font-size: 28px;
+        
+      }
+
+      & p {
+        margin-top: 20px;
+        letter-spacing: 1px;
+        font-size: 18px;
+        color: $cGray;
+      }
+
+      & .text {
+        margin-top: 17px;
+        color: $cGray;
+      }
+    }
+    
   }
 }
 
