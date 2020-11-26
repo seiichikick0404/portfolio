@@ -1,5 +1,3 @@
-
-
 $(function () {
   $(window).scroll(function () {
       const wHeight = $(window).height();

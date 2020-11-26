@@ -1,4 +1,13 @@
-$('#about-btn').click(function() {
-  const  position1 = $('.about-title').offset().top;
-  $('html, body').animate({scrollTop:position1});
-});
+
+$(function(){
+  var menu_list = $(".header-menu > a");
+  var body = $("body");
+  //menu_listがクリックされた時の処理
+  menu_list.click(function(){
+  //クリックされた要素のhrefを取得
+  var menu = $(this).attr("href");
+  //スクロール位置
+  var scroll_point = $(menu).offset().top;
+  body.animate({scrollTop: scroll_point},500);
+  });
+  });
