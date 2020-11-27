@@ -44,7 +44,8 @@
   background-image: url(../images/water_00011.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  height: 100vh;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,7 +55,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
 }
 
 .container::before {
@@ -565,4 +565,6 @@
   -webkit-transform: translateX(-200px);
           transform: translateX(-200px);
 }
+
+/* 959px以下に適用されるCSS（タブレット用） */
 /*# sourceMappingURL=index.css.map */
