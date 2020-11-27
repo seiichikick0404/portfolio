@@ -272,6 +272,7 @@ $cGray: #999;
   justify-content: center;
   align-items: center;
 
+
   & .works-title {
     text-align: center;
     margin-bottom: 40px;
@@ -449,5 +450,30 @@ $cGray: #999;
 // レスポンシブデザイン
 /* 959px以下に適用されるCSS（タブレット用） */
 @media screen and (max-width: 959px) {
-	
+
+  .profile-box {
+    width: 300px;
+    height: 80%;
+    position: relative;
+
+    & .myname {
+      position: absolute;
+      top: 20px;
+      left: 50px;
+    }
+  }
+
+  .skill-box {
+    width: 300px;
+  }
+	.container-works {
+    width: 100%;
+    height: 100%;
+
+    & .works-box {
+      width: 50%;
+      height: 80%;
+      flex-direction: column;
+    }
+  }
 }
