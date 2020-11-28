@@ -1,4 +1,9 @@
 @charset "UTF-8";
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .header-parent {
   width: 100%;
   height: 64px;
@@ -567,7 +572,21 @@
 }
 
 /* 959px以下に適用されるCSS（タブレット用） */
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 380px) {
+  .main-container {
+    margin: 0 10px 0 10px;
+  }
+  .main-container .main-title {
+    font-size: 55px;
+    font-weight: 700;
+  }
+  .main-container .profile-text-lists {
+    margin-top: 30px;
+  }
+  .main-container .profile-text-lists p {
+    font-size: 11px;
+    font-weight: bold;
+  }
   .profile-box {
     width: 300px;
     height: 80%;
@@ -578,8 +597,11 @@
     top: 20px;
     left: 50px;
   }
-  .skill-box {
+  .container3 .skill-box {
     width: 300px;
+  }
+  .container3 .skill-box .skill-lists li {
+    margin-left: 5px;
   }
   .container-works {
     width: 100%;
