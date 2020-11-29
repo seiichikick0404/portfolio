@@ -509,6 +509,10 @@ body {
   }
   
   .container3 {
+    // height: 100%;
+    width: 100%;
+    height: 100vh;
+
 
     & .skill-box {
       width: 340px;
@@ -521,14 +525,20 @@ body {
       }
     }
   }
-	.container-works {
-    width: 100%;
-    height: 100%;
+  .container4 {
+    
 
-    & .works-box {
-      width: 50%;
-      height: 80%;
-      flex-direction: column;
+    .container-works {
+      width: 100%;
+      height: 100vh;
+  
+      & .works-box {
+        margin: 0 0 0 20px;
+        width: 340px;
+        height: 80%;
+        flex-direction: column;
+      }
     }
   }
 }
+	
