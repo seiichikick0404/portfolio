@@ -325,27 +325,43 @@ body {
 
 .container4 .works-title {
   text-align: center;
-  margin-bottom: 40px;
   font-size: 45px;
   color: white;
 }
 
 .container4 .works-box {
-  height: 500px;
-  width: 1050px;
+  height: 600px;
+  width: 700px;
+}
+
+.container4 .works-box .swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 640px;
+}
+
+.container4 .works-box .item {
+  position: relative;
+}
+
+.container4 .works-box .item .item-text {
   background-color: white;
   -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.container4 .works-box .item {
-  margin-top: 70px;
+  padding: 20px 30px;
+  width: 350px;
+  position: absolute;
+  top: 290px;
+  left: 50px;
 }
 
 .container4 .works-box .item .item-1 {
@@ -424,21 +440,20 @@ body {
 }
 
 .container4 .works-box .item .item-title {
-  margin-top: 15px;
   display: block;
   color: black;
   font-size: 28px;
 }
 
 .container4 .works-box .item p {
-  margin-top: 20px;
+  margin-top: 10px;
   letter-spacing: 1px;
-  font-size: 18px;
+  font-size: 15px;
   color: #999;
 }
 
 .container4 .works-box .item .text {
-  margin-top: 17px;
+  margin-top: 10px;
   color: #999;
 }
 
@@ -569,11 +584,6 @@ body {
 .slide-left {
   -webkit-transform: translateX(-200px);
           transform: translateX(-200px);
-}
-
-.swiper-container {
-  width: 100%;
-  height: 300px;
 }
 
 /* 959px以下に適用されるCSS（タブレット用） */
