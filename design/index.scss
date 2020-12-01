@@ -497,7 +497,7 @@ body {
   }
 
   .container2 {
-    padding: 100px 0;
+    padding: 50px 0 100px;
   }
 
 
@@ -561,6 +561,43 @@ body {
 
         & li {
           margin-left: 5px;
+
+          & .fa-html5 {
+            font-size: 68px;
+            margin-left: 10px;
+          }
+
+          & .fa-css3-alt {
+            font-size: 68px;
+            margin-left: 10px;
+          }
+
+          & .fa-sass {
+            font-size: 58px;
+            margin-left: 10px;
+          }
+
+          & .fa-js-square {
+            font-size: 60px;
+            margin-left: 10px;
+          }
+
+          & .fa-gem {
+            font-size: 53px;
+            margin-left:7px;
+          }
+
+          & .mt-1 {
+            margin-left: 4px;
+            width: 64px;
+            height: 64px;
+          }
+
+          & .mt-2 {
+            width: 60px;
+            height: 60px;
+            margin-left: 10px;
+          }
         }
       }
     }
@@ -606,5 +643,9 @@ body {
         }
       }
     }
+  }
+
+  .container5 {
+    height: 165px;
   }
 }
