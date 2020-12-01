@@ -588,6 +588,35 @@ body {
 
 /* 959px以下に適用されるCSS（タブレット用） */
 @media screen and (max-width: 380px) {
+  .header-parent {
+    height: 90px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header-parent .title {
+    font-size: 22px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+  }
+  .header-parent .header-menu {
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-right: 0;
+  }
+  .header-parent .header-menu li {
+    margin: 0 20px;
+  }
+  .header-parent .header-menu a {
+    font-size: 13px;
+    margin-top: 15px;
+  }
   .main-container {
     margin: 0 10px 0 10px;
   }
