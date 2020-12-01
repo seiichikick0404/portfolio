@@ -602,15 +602,18 @@ body {
     font-size: 11px;
     font-weight: bold;
   }
+  .container2 {
+    padding: 100px 0;
+  }
   .container-about {
-    margin-top: 40px;
+    margin-top: 10px;
   }
   .container-about .about-title {
     font-size: 43px;
   }
   .container-about .profile-box {
     width: 340px;
-    height: 85%;
+    height: 90%;
     margin-top: 10px;
     position: relative;
     -webkit-box-orient: vertical;
@@ -641,12 +644,25 @@ body {
   .container3 {
     width: 100%;
     height: 100vh;
+    padding: 60px 0;
+  }
+  .container3 .skill-title {
+    font-size: 43px;
   }
   .container3 .skill-box {
     width: 340px;
+    height: 80%;
   }
   .container3 .skill-box .skill-lists li {
     margin-left: 5px;
+  }
+  .container4 {
+    height: 100vh;
+    width: 100%;
+    padding: 140px 0 0;
+  }
+  .container4 .works-title {
+    margin-top: -47px;
   }
   .container4 .container-works {
     width: 100%;
