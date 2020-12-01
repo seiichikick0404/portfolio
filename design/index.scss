@@ -556,6 +556,25 @@ body {
         width: 340px;
         height: 80%;
         flex-direction: column;
+
+        & .swiper-slide {
+
+        }
+
+        & .item {
+
+          & img {
+            width: 340px;
+            height: 220px;
+          }
+
+          & .item-text {
+            padding: 15px;
+            width: 230px;
+            top: 187px;
+            left: 21px;
+          }
+        }
       }
     }
   }
