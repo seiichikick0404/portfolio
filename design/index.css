@@ -605,9 +605,13 @@ body {
   .container-about {
     margin-top: 40px;
   }
+  .container-about .about-title {
+    font-size: 43px;
+  }
   .container-about .profile-box {
     width: 340px;
-    height: 80%;
+    height: 85%;
+    margin-top: 10px;
     position: relative;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -615,10 +619,14 @@ body {
             flex-direction: column;
   }
   .container-about .profile-box .myname {
+    font-size: 30px;
     font-weight: 500;
     position: absolute;
     top: 30px;
-    left: 63px;
+    left: 85px;
+  }
+  .container-about .profile-box .mytext {
+    margin-bottom: 12px;
   }
   .container-about .profile-box .trim-image-to-circle {
     width: 190px;
@@ -653,15 +661,19 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .container4 .container-works .works-box .swiper-slide {
+    height: 400px;
+  }
   .container4 .container-works .works-box .item img {
     width: 340px;
     height: 220px;
+    margin-bottom: 150px;
   }
   .container4 .container-works .works-box .item .item-text {
     padding: 15px;
-    width: 230px;
+    width: 280px;
     top: 187px;
-    left: 21px;
+    left: 10px;
   }
 }
 /*# sourceMappingURL=index.css.map */
